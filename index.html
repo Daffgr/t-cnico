@@ -1,0 +1,358 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAYLOR SWIFT</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Custom responsive tweaks -->
+  <style>
+    body {
+      background: linear-gradient(135deg, #161616 60%, #565557 100%);
+      font-family: 'Montserrat', Arial, sans-serif;
+      color: #222;
+      min-height: 100vh;
+    }
+
+    nav,
+    .page-footer {
+      background: linear-gradient(90deg, #000 70%, #e781a8 100%);
+    }
+
+    .nav-wrapper {
+      padding: 0 1.5rem;
+    }
+
+    .brand-logo img {
+      max-width: 100px;
+      height: auto;
+      margin-top: 5px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
+      transition: transform 0.2s;
+    }
+
+    .brand-logo img:hover {
+      transform: scale(1.05) rotate(-2deg);
+      box-shadow: 0 8px 32px #e781c0;
+    }
+
+    
+
+    .main-video-container:hover {
+      box-shadow: 0 16px 48px #f58dcd;
+    }
+
+    .main-video-container video {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      border-radius: 32px;
+      border: none;
+    }
+
+    .header {
+      font-family: 'Georgia', serif;
+      font-size: 3rem;
+      letter-spacing: 2px;
+      margin-bottom: 18px;
+      color: #e75f5f;
+      text-shadow: 1px 2px 12px #00000033;
+      font-weight: bold;
+    }
+
+    .taylor-desc {
+      font-size: 1.35rem;
+      margin-bottom: 36px;
+      color: #444;
+      background: rgba(253, 194, 194, 0.7);
+      border-radius: 18px;
+      padding: 18px 24px;
+      box-shadow: 0 2px 12px #db6f6f22;
+      display: inline-block;
+    }
+
+    .main-actions {
+      margin: 30px 0 40px 0;
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .main-actions a {
+      background: linear-gradient(90deg, #df8ebd 60%, #df62ab 100%);
+      color: #fff !important;
+      font-weight: 600;
+      font-size: 1.15rem;
+      border-radius: 24px;
+      padding: 14px 36px;
+      box-shadow: 0 2px 8px #c484ae;
+      transition: background 0.2s, color 0.2s, transform 0.2s;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .main-actions a:hover {
+      background: #fff !important;
+      color: #e75f5f !important;
+      border: 2px solid #e75f5f;
+      transform: scale(1.05);
+      text-decoration: underline;
+    }
+
+    .footer-copyright {
+      background: rgba(0, 0, 0, 0.10);
+      font-size: 0.95rem;
+    }
+
+    .page-footer ul li a {
+      transition: color 0.2s;
+    }
+
+    .page-footer ul li a:hover {
+      color: #e75f5f !important;
+      text-decoration: underline;
+    }
+
+    nav a {
+      color: #d387b6 !important;
+    }
+
+    nav i.material-icons {
+      color: #e093d4 !important;
+    }
+
+    @media only screen and (max-width: 992px) {
+      .main-video-container video {
+        height: 220px;
+      }
+
+      .main-video-container {
+        border-radius: 18px;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .brand-logo img {
+        max-width: 110px !important;
+      }
+
+      .main-video-container {
+        margin-top: 18px;
+        margin-bottom: 18px;
+        border-radius: 12px;
+      }
+
+      .main-video-container video {
+        height: 120px;
+        border-radius: 12px;
+      }
+
+      .header {
+        font-size: 2rem;
+      }
+
+      .taylor-desc {
+        font-size: 1.05rem;
+        padding: 10px 8px;
+      }
+
+      .main-actions a {
+        font-size: 1rem;
+        padding: 10px 18px;
+      }
+
+       .parallax-video video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+    }
+
+    }
+  </style>
+</head>
+<body>
+
+ <nav>
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+          <img src="logo_chorne.png" style="width:100%;height:150px;">
+          </div>
+          <a href="index.html"><img class="circle" src="logo2.webp"></a>
+        </div>
+
+      </li>
+      <li><a href="contacto.html"><i class="material-icons">contacts</i>Contacto</a></li>
+     
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+    <div class="nav-wrapper black">
+      <a href="index.html" class="brand-logo"><img src="l1.webp"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+      </ul>
+    </div>
+  </nav>
+<br> <br>
+
+  <!-- PARALLAX -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="main-video-container z-depth-2">
+          <video class="responsive-video" autoplay muted loop>
+            <source src="p1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div> 
+    <br>
+
+     <div class="row center">
+      <div class="col s12">
+        <h2 class="header">PROGRAMADORA</h2>
+        <p class="grey-text text-darken-3 lighten-3 taylor-desc">
+           
+         Crea, mantiene y soluciona software mediante lenguajes de programación.
+
+        </p>
+      </div>
+     </div>
+     
+
+<div class="row" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
+
+  <!-- CARD 1 -->
+  <div class="card hoverable z-depth-3 custom-card" style="max-width: 500px; display: flex; align-items: center; padding: 15px; flex: 1 1 300px;">
+    <!-- Texto a la izquierda -->
+    <div class="card-content" style="flex: 2; padding-right: 15px;">
+      <span class="card-title" style="margin-bottom: 10px;">Dafne García Ruiz</span>
+      <p style="font-size: 14px;">
+        Dafne egresó del CECyTEM Plantel Metepec como Técnica en Programación, donde adquirió sólidos conocimientos en desarrollo de software, lógica computacional, diseño web y manejo de bases de datos.
+      </p>
+    </div>
+    <!-- Imagen a la derecha -->
+    <div class="card-image" style="flex: 1; max-width: 150px;">
+      <img src="cecy.webp" alt="Dafne" style="width: 100%; border-radius: 8px;">
+    </div>
+  </div>
+
+  <!-- CARD 2 -->
+  <div class="card hoverable z-depth-3 custom-card" style="max-width: 500px; display: flex; align-items: center; padding: 15px; flex: 1 1 300px;">
+    <!-- Texto a la izquierda -->
+    <div class="card-content" style="flex: 2; padding-right: 15px;">
+      <span class="card-title" style="margin-bottom: 10px;">Habilidades</span>
+      <p style="font-size: 14px;">
+        Experiencia en desarrollo web, diseño con CSS, manejo de bases de datos y solución de problemas lógicos mediante programación. Capacidad para trabajar en equipo y adaptarse rápidamente.
+      </p>
+    </div>
+    <!-- Imagen a la derecha -->
+    <div class="card-image" style="flex: 1; max-width: 150px;">
+      <img src="f1.webp" alt="Habilidades" style="width: 100%; border-radius: 8px;">
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+ <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text" style="letter-spacing:2px;">Dafne</h5>
+          <p class="grey-text text-lighten-4">García</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Redes</h5>
+          <ul style="display:flex; flex-direction:column; gap:6px;">
+            <li>
+              <a class="grey-text text-lighten-3"
+                href="https://www.instagram.com/taylorswift?igsh=MTJ1OXVtYTMybnJjaQ==">
+                <i class="material-icons left">photo_camera</i>Instagram: @DAFNE
+              </a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://www.instagram.com/taylornation?igsh=bTd0cXR1ZGtnc3h5">
+                <i class="material-icons left">group</i>Instagram Líder:  @DAFNE
+              </a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://www.tiktok.com/@taylorswift?_t=ZS-8wxGXYO2AUi&_r=1">
+                <i class="material-icons left">music_video</i>Tik tok: @DAFNE
+              </a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://www.threads.net/@taylorswift">
+                <i class="material-icons left">chat</i>Threads:  @DAFNE
+              </a>
+            </li>
+             <li>
+              <a class="grey-text text-lighten-3" href="https://www.threads.net/@taylorswift">
+                <i class="material-icons left">drafts</i>Gmail:  @DAFNE
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2025 Dafne García
+
+      </div>
+    </div>
+  </footer>
+
+  <script>
+
+ document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+    });
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems);
+    });
+
+  </script>
+
+
+
+
+
+
+</body>
+
+</html>
